@@ -29,7 +29,11 @@ The system uses **TF-IDF** to convert news text into numerical features and **Lo
 ## 📂 Dataset
 
 The project uses the **Fake and Real News Dataset**, containing labeled news articles.
+The dataset is available on Kaggle:
 
+[Fake and Real News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
+
+The dataset files are not included in this repository because of their large file size.
 The dataset contains two categories:
 
 - Fake News

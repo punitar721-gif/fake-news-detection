@@ -51,3 +51,53 @@ Logistic Regression
 Prediction
      ↓
 Potentially Fake / Potentially Real
+## 🤖 Machine Learning Model
+
+**Algorithm:** Logistic Regression
+
+TF-IDF (Term Frequency-Inverse Document Frequency) is used to convert text into numerical features that can be processed by the machine learning model.
+
+## 📊 Model Evaluation
+
+The model was evaluated using a separate test dataset.
+
+| Metric | Score |
+|---|---:|
+| Accuracy | 98.46% |
+| Precision | 98.24% |
+| Recall | 98.52% |
+| F1-Score | 98.38% |
+
+These results are based on the test split used in this project.
+
+## 📁 Project Files
+
+- `Fake_News_Detection.ipynb` — Complete machine learning notebook
+- `fake_news_detector.py` — Python project file
+- `fake_news_model.pkl` — Trained Logistic Regression model
+- `tfidf_vectorizer.pkl` — Trained TF-IDF vectorizer
+- `data/` — Dataset information
+
+## 🚀 How to Run
+
+1. Open `Fake_News_Detection.ipynb` in Google Colab.
+2. Upload the dataset files.
+3. Run the notebook cells in order.
+4. Train the model.
+5. Enter a news article when prompted.
+6. View the model's prediction.
+
+## 🔮 Future Enhancements
+
+- Add advanced NLP preprocessing.
+- Compare multiple machine learning algorithms.
+- Develop a web-based user interface.
+- Add a larger and more diverse dataset.
+- Improve handling of short news text.
+- Add explainable AI features.
+
+## 👩‍💻 Author
+
+**Punitha R R**
+
+This project was developed as a machine learning project for educational purposes.

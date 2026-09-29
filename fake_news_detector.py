@@ -10,9 +10,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 
 # Load dataset
-fake = pd.read_csv("data/Fake.csv")
-true = pd.read_csv("data/True.csv")
-
+fake = pd.read_csv("/content/data/Fake.csv")
+true = pd.read_csv("/content/data/True.csv")
 # Add labels
 fake["label"] = 0
 true["label"] = 1
